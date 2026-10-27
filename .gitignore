@@ -1,0 +1,4 @@
+# Credenciales sin encriptar y respaldos de Node-RED
+*.backup
+.flows*.json.backup
+node_modules/

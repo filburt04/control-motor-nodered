@@ -1,0 +1,14 @@
+{
+    "name": "control-motor-nodered",
+    "description": "Dashboard de control de motor en Node-RED: imagen animada, botones de mando y LEDs de estado.",
+    "version": "1.0.0",
+    "dependencies": {
+        "node-red-dashboard": "^3.6.0"
+    },
+    "node-red": {
+        "settings": {
+            "flowFile": "flows.json",
+            "credentialsFile": "flows_cred.json"
+        }
+    }
+}
